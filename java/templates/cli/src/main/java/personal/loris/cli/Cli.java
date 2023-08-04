@@ -6,9 +6,6 @@ import picocli.CommandLine;
 
 import static picocli.CommandLine.Command;
 
-/**
- * This class is the main entry point for the library information extractor.
- */
 @Command(name = "Cli")
 public class Cli{
 

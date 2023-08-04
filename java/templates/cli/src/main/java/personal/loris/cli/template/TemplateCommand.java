@@ -9,7 +9,6 @@ public class TemplateCommand implements Runnable {
 
   private static final Logger LOG = Logger.getLogger(TemplateCommand.class.getName());
 
-  // Visible for testing
   @Option(names = {"-i", "--input"}, description = "Input data", required = true)
   String input;
 
