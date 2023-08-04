@@ -1,6 +1,7 @@
 package personal.loris.cli.template;
 
-import java.util.String;
+import java.lang.String;
+import java.util.logging.Logger;
 
 import static picocli.CommandLine.Option;
 

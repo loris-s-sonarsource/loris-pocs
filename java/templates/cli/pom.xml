@@ -3,7 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>loris-cli</artifactId>
+  <groupId>loris</groupId>
+  <artifactId>cli</artifactId>
+  <version>1</version>
   <packaging>jar</packaging>
 
   <properties>
@@ -138,7 +140,7 @@
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                   <manifestEntries>
-                    <Main-Class>org.loris.Cli</Main-Class>
+                    <Main-Class>personal.loris.cli.Cli</Main-Class>
                     <Plugin-Version>${project.version}</Plugin-Version>
                   </manifestEntries>
                 </transformer>

@@ -18,7 +18,7 @@ public class Cli{
 
   // Visible for testing
   static int createAndExecuteCommand(String[] args) {
-    return new CommandLine(new Crawler())
+    return new CommandLine(new Cli())
       .addSubcommand("test", new TemplateCommand())
       .setCaseInsensitiveEnumValuesAllowed(true)
       .execute(args);
