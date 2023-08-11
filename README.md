@@ -35,3 +35,15 @@ java ()
                     java $@
 }
 ```
+
+
+## Csharp
+
+A small Kestrel server.
+
+```csharp
+
+dotnet new web -o TodoApi
+cd TodoApi
+code -r ../TodoApi
+`` 
